@@ -1,0 +1,65 @@
+header{
+    background-color: #191919;
+    padding: 10px;
+}
+header nav{
+display: flex;
+justify-content: space-around;
+}
+#containerImg, #itensNav,#iconsNav{
+    width: 33.33%;
+}
+#imgHeader{
+    background-image: url(../img/logoSfundo.png);
+    background-size: cover;
+    /* Ajusta o tamanho da imagem */
+    background-position: left;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Evita repetição */
+    height: 50px;
+    width: 50px;
+}
+#itensNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#itensNav a{
+    text-decoration: none;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+#iconsNav{
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    align-items: center;
+    margin-right: 30px;
+}
+#iconsNav i{
+    color:white;
+    font-size: 20px;
+}
+
+body{
+    background-color:black ;
+}
+.activate{
+    color: yellow !important;
+    border-bottom: 1px solid yellow;
+}
+#searchInput{
+    width: 40%;
+}
+#search{
+    margin-top: 50px;
+    width: 100%; 
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+#container{
+    display: flex;
+    justify-content: center;
+}

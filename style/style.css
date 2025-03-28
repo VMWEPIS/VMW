@@ -1,0 +1,283 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #191919;
+}
+#mobile{
+    display: none;
+}
+#desktop header {
+    background-color: #191919;
+    width: 100%;
+    padding: 0 15px 0 15px;
+}
+
+#desktop header nav {
+    display: flex;
+}
+
+#nav-imagem {
+    width: 50%;
+    margin: 0;
+}
+
+#imagem-nav {
+    margin: 0;
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/logoSfundo.png);
+    background-size: cover;
+    /* Ajusta a imagem para cobrir o container */
+    background-repeat: no-repeat;
+    /* Evita a repetição da imagem */
+}
+
+#nav-itens {
+    width: 50%;
+}
+
+#nav-itens ul li {
+    color: white;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.item-navegacao a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.dropdown-menu a{
+    color: black;
+}
+
+#ul-itens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+}
+
+/*fim do header*/
+
+#home {
+    
+    width: 100%;
+    height: 100vh;
+    background-color: #191919;
+    background-image: url(../img/landingpage.png);
+    background-size: cover;
+    /* Ajusta o tamanho da imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Evita repetição */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-img {
+
+    background-image: url(../img/logoCfundo.png);
+    background-size: cover;
+    /* Ajusta o tamanho da imagem */
+    background-position: left;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Evita repetição */
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+#conteudo_home {
+    text-align: center;
+}
+
+#home h1 {
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#home-button {
+    width: 300px;
+    height: 50px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 40px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+/*fim do home*/
+#sobre {
+    height: 100vh;
+    background-color: #191919;
+    color: white;
+}
+
+#sobre h1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+#conteudo_sobre {
+
+    display: flex;
+}
+
+#texto_sobre {
+    display: grid;
+    align-items: center;
+    margin-left: 20px;
+    width: 50%;
+    height: 80vh;
+    padding: 15px;
+}
+#texto_sobre h4{
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#texto_sobre p, li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+#imagens_sobre {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagem_rino1 {
+    background-image: url(../img/logoCfundo.png);
+    background-size: cover;
+    /* Ajusta o tamanho da imagem */
+    background-position: left;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Evita repetição */
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+#imagens_sobre p{
+    width: 70%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+#produtos {
+    background-color: #191919;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Distribui os elementos dentro da seção */
+    align-items: center;
+    padding: 20px 0;
+}
+
+#card_produtos {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+#produtos h1 {
+    color: white;
+}
+
+.tamanho-cartao {
+    width: 22rem;
+    background: #ffffff;
+}
+
+.cartao-texto {
+    text-align: center;
+}
+
+.cartao-texto p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#beneficios{
+    display: grid;
+    align-items: center;
+    height: 100vh;
+    
+}
+#beneficios h1{
+    color: #ffffff;
+    text-align: center;
+}
+#beneficios_card{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card_beneficios{
+    text-align: center;
+    width: 18rem;
+    color: #ffffff;
+}
+.card_beneficios i{
+    margin: 10%;
+}
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: yellow;
+    height: 40px;
+
+}
+
+#footer p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+/*animation*/
+.view{
+    opacity: 0; /* Começa invisível */
+    transform: translateY(80px); /* Deslocado para baixo */
+    transition: opacity 1.2s ease-out, transform 1.2s cubic-bezier(0.25, 1, 0.5, 1);}
+.view.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
